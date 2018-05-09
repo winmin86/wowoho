@@ -1,0 +1,6 @@
+if (!-e $request_filename) {
+	#一级目录
+	# rewrite ^/(.*)$ /index.php/$1 last;
+	#二级目录
+	rewrite ^/(.*)$ /public/index.php/Index/$1 last;
+}

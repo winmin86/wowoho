@@ -1,0 +1,10 @@
+.idea
+composer.lock
+composer.json
+LICENSE.txt
+*.log
+*.yml
+thinkphp
+runtime
+
+
